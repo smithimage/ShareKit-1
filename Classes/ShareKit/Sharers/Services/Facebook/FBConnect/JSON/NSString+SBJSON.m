@@ -28,7 +28,7 @@
  */
 
 #import "NSString+SBJSON.h"
-#import "SBJsonParser.h"
+#import <PhoneGap/SBJsonParser.h>
 
 @implementation NSString (NSString_SBJSON)
 

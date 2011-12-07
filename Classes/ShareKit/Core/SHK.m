@@ -32,7 +32,11 @@
 #import "SHKActionSheet.h"
 #import "SHKOfflineSharer.h"
 #import "SFHFKeychainUtils.h"
+#ifdef PHONEGAP_FRAMEWORK
+#import <PhoneGap/Reachability.h>
+#else
 #import "Reachability.h"
+#endif
 #import <objc/runtime.h>
 #import <objc/message.h>
 #import <MessageUI/MessageUI.h>

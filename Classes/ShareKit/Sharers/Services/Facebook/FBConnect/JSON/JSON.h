@@ -44,7 +44,7 @@
  
 */
 
-#import "SBJSON.h"
+#import <PhoneGap/SBJSON.h>
 #import "NSObject+SBJSON.h"
 #import "NSString+SBJSON.h"
 

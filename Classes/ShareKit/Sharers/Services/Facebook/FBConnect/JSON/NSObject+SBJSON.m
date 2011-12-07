@@ -28,7 +28,7 @@
  */
 
 #import "NSObject+SBJSON.h"
-#import "SBJsonWriter.h"
+#import <PhoneGap/SBJsonWriter.h>
 
 @implementation NSObject (NSObject_SBJSON)
 
